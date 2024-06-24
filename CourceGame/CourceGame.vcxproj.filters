@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Interface">
+      <UniqueIdentifier>{5fc661b4-9dba-4620-9cec-55615a932a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Interface">
+      <UniqueIdentifier>{0ed24a83-8c55-4b5a-8090-c8868285f911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Renderers">
+      <UniqueIdentifier>{31c3e8d9-73b0-4dc9-8067-64bf84166827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Renderers">
+      <UniqueIdentifier>{10fac668-78e0-46ca-a805-2ea10b1d6eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Events">
+      <UniqueIdentifier>{f4fcd8ba-1c07-4ad2-aa6a-14ddc87a6ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\AlphaRegister">
+      <UniqueIdentifier>{65219414-427a-4a13-85ca-cec97c7c7c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Levels">
+      <UniqueIdentifier>{056c3dcf-e777-407f-8ff5-3dedd0b2f006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Levels">
+      <UniqueIdentifier>{7b01b93a-7b96-41c7-8224-5e4646bb1bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Level Interfaces">
+      <UniqueIdentifier>{63429605-a32a-4ae8-96f2-16dfaee7fded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Level Interfaces">
+      <UniqueIdentifier>{10085f8d-13e3-4750-aaaa-58ff97e120d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Alpha Register">
+      <UniqueIdentifier>{16185780-00e8-4e28-8147-11f108b0f457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MathAddon.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundLoader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControls.cpp">
+      <Filter>Исходные файлы\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicRenderer.cpp">
+      <Filter>Исходные файлы\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Исходные файлы\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuInterface.cpp">
+      <Filter>Исходные файлы\Level Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Исходные файлы\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuLevel.cpp">
+      <Filter>Исходные файлы\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaRegister.cpp">
+      <Filter>Исходные файлы\Alpha Register</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Исходные файлы\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1Interface.cpp">
+      <Filter>Исходные файлы\Level Interfaces</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MathAddon.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundLoader.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IControl.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="IOwner.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ProjectGame\Project1\Vector2D.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEnums.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControls.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>Файлы заголовков\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicRenderer.h">
+      <Filter>Файлы заголовков\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Файлы заголовков\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="EventFunctionAliases.h">
+      <Filter>Файлы заголовков\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuInterface.h">
+      <Filter>Файлы заголовков\Level Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaRegister.h">
+      <Filter>Файлы заголовков\AlphaRegister</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Файлы заголовков\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuLevel.h">
+      <Filter>Файлы заголовков\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Файлы заголовков\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1Interface.h">
+      <Filter>Файлы заголовков\Level Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
